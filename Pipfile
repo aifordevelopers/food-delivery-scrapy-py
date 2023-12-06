@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+
+[packages]
+scrapy = "*"
+requests = "*"
+scrapy-splash = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+scrapy-user-agents = "*"
+scrapy-proxy-pool = "*"
+
+[requires]
+python_version = "3.6"
